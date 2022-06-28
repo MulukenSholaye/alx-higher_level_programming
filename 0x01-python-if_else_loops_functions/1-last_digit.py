@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import random as rn
-number = rn.randint(-10000, 10000)
+import random
+number = random.randint(-10000, 10000)
 if number < 0:
     ldigit = -number % 10
     ldigit = -ldigit
